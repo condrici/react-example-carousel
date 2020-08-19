@@ -11,3 +11,19 @@
         margin-top: 30px;
     }
 }
+
+body {
+    -webkit-animation: magic 1s infinite;  /* Safari 4+ */
+    -moz-animation: magic 1s infinite;  /* Fx 5+ */
+    -o-animation: magic 1s infinite;  /* Opera 12+ */
+    animation: magic 1s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes magic {
+    0%, 49% {
+        background-color: #A9FDAC;
+    }
+    50%, 100% {
+        background-color: #F1FFE7;
+    }
+}
